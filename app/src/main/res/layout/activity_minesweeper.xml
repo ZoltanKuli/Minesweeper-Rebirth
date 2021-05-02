@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#000000"
+	tools:context=".MinesweeperActivity">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:background="@color/colorPrimary"
+		android:gravity="center_vertical"
+		android:minHeight="@dimen/dimenToolbar"
+		android:theme="?attr/actionBarTheme"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<ImageView
+			android:id="@+id/iv_flag_or_search"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:src="@drawable/ic_search"
+			tools:ignore="ContentDescription" />
+
+		<TextView
+			android:id="@+id/tv_flags_or_search_number"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:paddingStart="4dp"
+			android:paddingEnd="16dp"
+			android:text="@string/default_flags_or_checks"
+			android:textColor="@color/colorLight"
+			android:textSize="24sp"
+			android:textStyle="bold" />
+
+		<ImageView
+			android:id="@+id/iv_timer"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:src="@drawable/ic_timer"
+			tools:ignore="ContentDescription" />
+
+		<TextView
+			android:id="@+id/tv_time"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:paddingStart="4dp"
+			android:paddingEnd="16dp"
+			android:text="@string/default_time"
+			android:textColor="@color/colorLight"
+			android:textSize="24sp"
+			android:textStyle="bold" />
+	</android.support.v7.widget.Toolbar>
+
+	<LinearLayout
+		android:id="@+id/holder_board"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:background="@color/colorForegroundLight"
+		android:orientation="vertical"
+		app:layout_constraintBottom_toTopOf="@id/adView"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+		<!-- It holds the board -->
+	</LinearLayout>
+
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/adView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		ads:adSize="SMART_BANNER"
+		ads:adUnitId="ca-app-pub-8167208762921452/2853409849"
+		ads:layout_constraintBottom_toTopOf="@id/guideline"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/holder_board" />
+
+	<android.support.constraint.Guideline
+		android:id="@+id/guideline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"/>
+
+</android.support.constraint.ConstraintLayout>

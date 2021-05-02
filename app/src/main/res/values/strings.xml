@@ -1,0 +1,26 @@
+<resources>
+	<string name="app_name">Minesweeper Rebirth</string>
+	<string name="default_flags_or_checks">000</string>
+	<string name="default_flags_or_checks_1">00%1$d</string>
+	<string name="default_flags_or_checks_2">0%1$d</string>
+	<string name="default_flags_or_checks_3">%1$d</string>
+	<string name="best_time_default">No best time yet</string>
+	<string name="best_time_1">Best time: 00%1$d</string>
+	<string name="best_time_2">Best time: 0%1$d</string>
+	<string name="best_time_3">Best time: %1$d</string>
+	<string name="default_time">000</string>
+	<string name="default_time_1">00%1$d</string>
+	<string name="default_time_2">0%1$d</string>
+	<string name="default_time_3">%1$d</string>
+	<string name="resume">Resume</string>
+	<string name="volume">Volume control</string>
+	<string name="volume_up">Volume up</string>
+	<string name="volume_down">Volume down</string>
+	<string name="restart">Restart</string>
+	<string name="game_won">Congratulations!</string>
+	<string name="game_over">You can do better!</string>
+	<string name="go_premium">Go premium</string>
+	<string name="rate_app">Rate the app</string>
+	<string name="no_help">No help is available at the moment</string>
+	<string name="watch_full">Please, watch the full video</string>
+</resources>
