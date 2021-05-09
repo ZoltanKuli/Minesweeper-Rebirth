@@ -1,4 +1,5 @@
 # The Story Behind Minesweeper Rebirth
+
 Minesweeper Rebirth was the first project that I started and managed to finish.
 
 I made many mistakes during the planning and development phase, but back then, in the fall of 2018, I hardly knew anything about computer science and software engineering.
