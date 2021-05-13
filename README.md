@@ -1,5 +1,5 @@
 # Minesweeper Rebirth
-Minesweeper Rebirth was made during the fall of 2018. The purpose of this app is to give players an enjoyable Minesweeper experience.
+I made Minesweeper Rebirth during the fall of 2018. My goal was to create my first-ever app and learn about Java and Android.
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
@@ -9,7 +9,7 @@ Minesweeper Rebirth was made during the fall of 2018. The purpose of this app is
 
 # Skills Demonstrated
 * Built an Android and Java-based game engine from scratch, which was used to create a fully functional 2D gaming experience.
-* Published the app on the Google Store and effectively used the AdMob API to monetize the app.
+* Published the app on the Google Store and effectively used the AdMob API to introduce monetization.
 
 # Technologies Used
 * Java
