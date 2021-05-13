@@ -1,5 +1,7 @@
 # Minesweeper Rebirth
-I made Minesweeper Rebirth during the fall of 2018. My goal was to create my first-ever app and learn about Java and Android.
+I made Minesweeper Rebirth during the fall of 2018.
+
+My goal was to create my first-ever app and learn about Java and Android.
 
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
