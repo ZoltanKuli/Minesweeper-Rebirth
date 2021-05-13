@@ -1,5 +1,6 @@
 # Minesweeper Rebirth
 Minesweeper Rebirth was made during the fall of 2018. The purpose of this app is to give players an enjoyable Minesweeper experience.
+
 | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="Minesweeper Rebirth Screenshot" src="images/game_01.jpg">   |  <img width="1604" alt="Minesweeper Rebirth Screenshot" src="images/game_02.jpg">|<img width="1604" alt="Minesweeper Rebirth Screenshot" src="images/game_03.jpg">|
