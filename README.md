@@ -10,7 +10,7 @@ My goal was to create my first-ever app and learn about Java and Android.
 |<img width="1604" alt="" src="">  |  <img width="1604" alt="Minesweeper Rebirth Screenshot" src="images/game_07.jpg">|<img width="1604" alt="" src="">|
 
 # Skills Demonstrated
-* Built an Android- and Java-based game engine from scratch, which was used to create a fully functional 2D gaming experience.
+* Built an Android- and Java-based game engine from scratch, which I used to create a fully functional 2D gaming experience.
 * Published the app on the Google Store and effectively used the AdMob API to introduce monetization.
 
 # Technologies Used
