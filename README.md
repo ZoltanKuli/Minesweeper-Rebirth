@@ -18,7 +18,7 @@ My goal was to create my first-ever app and learn about Java and Android.
 * Android SDK
 
 # Results
-More than 100 people downloaded and enjoyed playing Minesweeper Rebirth until it got taken down around the end of 2020 because of too many similarities with other minesweeper games.
+More than 100 people downloaded and enjoyed playing Minesweeper Rebirth until it got taken down around the end of 2020 because of too many similarities with other Minesweeper games.
 
 # Inspiration
 The inspiration behind Minesweeper Rebirth was [Google's Minesweeper](https://www.google.com/search?q=play+minesweeper).
